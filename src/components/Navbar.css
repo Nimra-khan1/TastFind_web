@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+.navbar {
+    transition: background-color 0.3s ease;
+    padding: 1rem 1.5rem; /* Add padding for better spacing */
+  }
+  
+  /* Custom Background Colors */
+  .custom-light-bg {
+    background-color: #ffffff; /* White background */
+  }
+  
+  .custom-dark-bg {
+    background-color: #212529; /* Dark background */
+  }
+  
+  /* Brand Styles */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold; /* Make brand name bold */
+    color: #ff6347; /* Tomato color for brand name */
+  }
+  
+  /* Link Styles */
+  .navbar .nav-link {
+    color: #ffffff; /* Default text color in dark mode */
+    font-weight: bold; /* Make navbar links bold */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ff6347; /* Change color on hover */
+  }
+  
+  /* Active link styles */
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ff6347; /* Highlight active link in tomato color */
+  }
+  
+  /* Button styles */
+  .btn {
+    margin-left: 10px;
+  }
+  
+  /* Dark Mode Styles */
+  .navbar-dark .nav-link {
+    color: #ffffff; /* Light text color for dark mode */
+  }
+  
+  .navbar-dark .nav-link:hover {
+    color: #ff6347; /* Tomato color on hover in dark mode */
+  }
+  
+  /* Light Mode Styles */
+  .navbar-light .nav-link {
+    color: #000000; /* Black text color for light mode */
+  }
+  
+  .navbar-light .nav-link:hover {
+    color: #ff6347; /* Tomato color on hover in light mode */
+  }
+  

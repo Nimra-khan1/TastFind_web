@@ -1,0 +1,138 @@
+.browse-recipes {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.browse-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 1em;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-item {
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.recipe-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.recipe-name {
+  margin-top: 10px;
+}
+
+.no-recipes {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.preparation-details {
+  margin-top: 15px; /* Reduce top margin */
+  padding: 5px; /* Reduced padding for a tighter fit */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 1000px; /* Decrease max width to make it smaller */
+  margin-left: auto; /* Center the container */
+  margin-right: auto; /* Center the container */
+}
+
+.preparation-title {
+  font-weight: bold;
+  font-size: 1.8em; /* Further reduced font size for the title */
+  text-align: center; /* Centered title */
+  margin-bottom: 5px; /* Reduced space below title */
+  padding-top: 20px;
+}
+
+.details-content {
+  display: flex; /* Use flexbox to align steps and image */
+  align-items: flex-start; /* Align items to the start for better spacing */
+}
+
+.preparation-steps {
+  flex: 1; /* Left side for preparation steps */
+  padding-right: 5px; /* Reduce space between steps and image */
+  margin-bottom: 5px; /* Reduce margin at the bottom for spacing */
+  
+}
+
+.detail-image {
+  width: 350px; /* Further reduce width for a smaller image */
+  height: 350px; /* Keep it square */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  margin-right: 60px; /* Reduce margin to separate from preparation steps */
+  padding-top: 50px; /* Remove padding if it's not needed */
+}
+
+
+.ingredients-title,
+.steps-title {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.ingredient,
+.preparation-step {
+  padding-left: 60px ;
+  font-weight: bold;
+  font-style:italic ;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.step-image {
+  width: 50px; /* Adjusted image size for steps */
+  height: auto;
+  margin-right: 10px;
+}
+
+.close-button {
+  margin-top: 10px;
+  padding: 15px 20px; /* Increase padding for a fuller appearance */
+  background-color: #ff4d4d; /* Button color */
+  color: white;
+  border: 2px solid #d12b2b; /* Optional: add a border for emphasis */
+  border-radius: 5px; /* Keep the rounded corners */
+  cursor: pointer;
+  display: block; /* Center the button */
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em; /* Increase font size for better visibility */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s ease; /* Add a transition for hover effect */
+}
+
+.close-button:hover {
+  background-color: #ff1a1a; /* Darker shade on hover for effect */
+}
