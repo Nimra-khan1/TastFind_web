@@ -24,14 +24,14 @@ const Feedback = () => {
       rating: 4.5,
     },
     {
-      name: "Ali Ahmed",
+      name: "Abu Huraira",
       date: "January 8, 2025",
       feedback:
         "The images and step-by-step instructions are fantastic. I wish there were more regional dishes.",
       rating: 4.5,
     },
     {
-      name: "Ali Ahmed",
+      name: "Urwa",
       date: "January 8, 2025",
       feedback:
         "The images and step-by-step instructions are fantastic. I wish there were more regional dishes.",
@@ -39,14 +39,14 @@ const Feedback = () => {
     },
 
     {
-      name: "Ali Ahmed",
+      name: "Rayan Khan",
       date: "January 8, 2025",
       feedback:
         "The images and step-by-step instructions are fantastic. I wish there were more regional dishes.",
       rating: 4.5,
     },
     {
-      name: "Ali Ahmed",
+      name: "Laiba",
       date: "January 8, 2025",
       feedback:
         "The images and step-by-step instructions are fantastic. I wish there were more regional dishes.",

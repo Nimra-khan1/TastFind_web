@@ -15,7 +15,7 @@
   
   /* Background Image */
   .background-image {
-    background-image: url('https://www.miops.com/cdn/shop/articles/Food_Photography___How_to_Take_Unique_and_Creative_Food_Photos_5_1280x1100_crop_center.jpg?v=1661150733'); /* Background image URL */
+    background-image: url('https://www.seriouseats.com/thmb/bDS_gav-6UGuy8fWpE2pjKvmCjk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__03__20170210-vietnamese-chicken-emily-matt-clifton-3-2243dd83bfaf46719e90310efcca3c80.jpg'); /* Background image URL */
     background-size: cover; /* Cover the entire div */
     background-position: center; /* Center the background image */
     width: 50%; /* Half of the screen width */

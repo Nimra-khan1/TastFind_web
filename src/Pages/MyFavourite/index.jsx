@@ -8,7 +8,17 @@ const MyFavourite = () => {
 
   return (
     <>
-      <h2 className="browse-title">Favourite RECIPES</h2>
+      <h2
+  className="browse-title"
+  style={{
+    marginTop: "20px", // Adjust this value to move the heading
+    textAlign: "center", // Center the heading (optional)
+    fontSize: "32px", // Adjust font size (optional)
+    
+  }}
+>
+  FAVOURITE RECIPES
+</h2>
       <div className="recipe-list">
         {savedFavouriteData.length > 0 ? (
           savedFavouriteData.map((recipe, index) => (

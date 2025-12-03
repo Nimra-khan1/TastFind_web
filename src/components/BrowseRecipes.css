@@ -136,3 +136,15 @@
 .close-button:hover {
   background-color: #ff1a1a; /* Darker shade on hover for effect */
 }
+/* BrowseRecipes.css */
+.not-liked {
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+}
+
+.liked {
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}
